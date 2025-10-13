@@ -7,13 +7,65 @@
 
 /* Global styles 
 ------------------------------------*/
-body {
+html, body {
     /*background: lightblue;*/
+    background-color: lightblue;
+    margin: 0;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color : 1B3C53;
+}
+
+body {
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-size: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2.5% 2.5% 0;
+    background: white;
+    line-height: 1.8;
+}
+
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+h2 {
+	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
 
 
 
