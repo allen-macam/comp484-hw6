@@ -7,11 +7,17 @@
 
 /* Global styles 
 ------------------------------------*/
-html, body {
+html, body{
     /*background: lightblue;*/
     background-color: lightblue;
     margin: 0;
 }
+
+.content-wrap {
+    width: 950px;
+    margin: 0 auto;
+}
+
 
 
 /* Header & Footer 
