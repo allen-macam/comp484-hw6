@@ -21,7 +21,18 @@ body {
     box-sizing: inherit;
 }
 
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
 
+.column-width {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
 
 .content-wrap {
     max-width: 950px;
@@ -91,11 +102,12 @@ footer {
 
 }
 
-.profile-image {
-    width: 300px;
+.profile-img {
+    /*width: 300px;
     border-radius: 50%;
     float: left;
-    margin-right: 30px;
+    margin-right: 30px;*/
+    border-radius: 50%;
 }
 
 
