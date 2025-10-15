@@ -7,16 +7,27 @@
 
 /* Global styles 
 ------------------------------------*/
-html, body{
+html {
     /*background: lightblue;*/
     background-color: lightblue;
     margin: 0;
 }
 
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 
@@ -82,7 +93,9 @@ footer {
 
 .profile-image {
     width: 300px;
-    
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
 
