@@ -45,6 +45,20 @@ body {
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background-image: linear-gradient(rgba(27, 60, 83, 0.65), rgba(70, 104, 130, 0.65)), url('../images/T1Hw.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px;
+    color: white;
+}
+
+header h1, header h2, header p {
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
@@ -121,7 +135,7 @@ footer {
 /* Education
 ------------------------------------*/
 #two {
-    background-image: linear-gradient(rgba(27, 60, 83, 0.7), rgba(210, 193, 182, 0.6)), url('../images/dwight.jpeg');
+    background-image: linear-gradient(rgba(27, 60, 83, 0.7), rgba(210, 193, 182, 0.6)), url('../images/MatrixBackground.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
