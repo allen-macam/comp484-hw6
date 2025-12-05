@@ -120,3 +120,16 @@ footer {
 
 /* Education
 ------------------------------------*/
+#two {
+    background-image: linear-gradient(rgba(27, 60, 83, 0.7), rgba(210, 193, 182, 0.6)), url('../images/dwight.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px;
+    color: white;
+}
+
+#two h2, #two h3, #two p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
